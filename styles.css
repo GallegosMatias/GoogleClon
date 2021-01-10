@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Nav bar */
+
+.nav {
+  height: 90px;
+  margin-top: 13px;
+  margin-right: 15px;
+  color: #000000DE;
+}
+
+.nav__ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav__ul-item {
+  list-style: none;
+  font-family: Arial;
+  font-size: 13px;
+  margin-right: 16px;
+}
+
+.nav__ul-item img {
+  border-radius: 50%;
+}
+
+/* Main */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main__logo {
+  padding-top: 95px;
+}
+
+.main__search {
+  display: flex;
+  margin-top: 24px;
+}
+
+.main__search-input {
+  border-radius: 40px;
+  width: 582px;
+  height: 44px;
+  border: 1px solid #dfe1e5;
+}
+
+.main__search-logo {
+  position: relative;
+  top: 11px;
+  right: 0px;
+  left: 39px;
+  bottom: 0px;
+  color: #9aa0a6;
+}
+
+.main__search-mic {
+  position: relative;
+  top: 11px;
+  right: 0px;
+  left: -39px;
+  bottom: 0px;
+  color: #9aa0a6;
+}
+
+.main__buttons {
+  font-family: Arial;
+  color: #202124;
+  display: flex;
+  padding-top: 18px;
+}
+
+.main__buttons-search, .main__buttons-lucky {
+  padding: 0px 16px;
+  margin: 11px 4px;
+  background: #f8f9fa;
+  height: 36px;
+  border: none;
+  color: #202124;
+  font-size: 14px;
+}
+
+.main__extra {
+  color: #202124;
+  font-size: 13px;
+  font-family: Arial;
+  margin-top: 18px;
+}
+
+.main__extra a {
+  text-decoration: none;
+}
+
+/* Footer */
+
+footer {
+  position: relative;
+  top: 386px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #f2f2f2;
+}
+
+.footer__firstLine {
+  display: flex;
+  height: 40px;
+  border-top: 1px solid #dadce0;
+  align-items: center;
+}
+
+.footer__secondLine {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  border-top: 1px solid #dadce0;
+}
+
+.footer__secondLine-1 {
+  width: 50%;
+  float: left;
+}
+
+.footer__firstLine ul {
+  list-style: none;
+  font-size: 14px;
+  font-family: Arial;
+  color: #0000008A;
+}
+
+.footer__firstLine ul li {
+    padding-left: 27px;
+}
+
+.footer__secondLine-1 ul li {
+    padding-left: 27px;
+}
+
+.footer__secondLine-2 {
+  width: 50%;
+  float: right;
+}
+
+.footer__secondLine-1 ul {
+  display: flex;
+  list-style: none;
+  font-size: 14px;
+  font-family: Arial;
+  color: #0000008A;
+}
+
+.footer__secondLine-2 ul {
+  display: flex;
+  list-style: none;
+  float: right;
+  font-size: 14px;
+  font-family: Arial;
+  color: #0000008A;
+  padding-right: 27px;
+}
+
+.footer__secondLine-2 ul li {
+  padding-left: 27px;
+}
